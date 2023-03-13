@@ -65,6 +65,7 @@ ol img:hover{
     
     background-color: rgba(0, 255, 255, 0.199);
     transform: translate(-10px, -10px);
+    transition-duration: 0.5s;
 }
 
 footer{
@@ -76,3 +77,17 @@ footer h1, p{
     text-align: center;
     
 }
+
+div.botao_visitar{
+    text-align: center;
+    background-color: rgb(126, 2, 2);
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    width: 100%;
+}
+
+div.botao_visitar a:visited{
+    color: white;
+}
+
